@@ -8,7 +8,8 @@ export const auth = betterAuth({
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: process.env.BETTER_AUTH_URL,
   trustedOrigins: [
-    process.env.BETTER_AUTH_URL!,
+    "https://basmab.app",
+    "https://www.basmab.app",
     process.env.NEXT_PUBLIC_APP_URL!,
   ],
   emailAndPassword: {
